@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "64bf75dbc510a764a1366971b5f81180",
-    "content-hash": "4368d691d1163601d55d8c9f0e4f39bd",
+    "hash": "270e0a9ec4e2fcf5397388400f272fe7",
+    "content-hash": "62b196ac0a5707039e2fcfeb1842ce3f",
     "packages": [
         {
             "name": "composer/installers",
@@ -521,6 +521,26 @@
                 "environment"
             ],
             "time": "2019-01-30 10:43:17"
+        },
+        {
+            "name": "wpackagist-plugin/safe-redirect-manager",
+            "version": "1.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/safe-redirect-manager/",
+                "reference": "tags/1.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/safe-redirect-manager.1.9.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/safe-redirect-manager/"
         }
     ],
     "packages-dev": [
