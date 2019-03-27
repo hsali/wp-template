@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "270e0a9ec4e2fcf5397388400f272fe7",
-    "content-hash": "62b196ac0a5707039e2fcfeb1842ce3f",
+    "hash": "e7facc4ddc031459fc38b20918066b5d",
+    "content-hash": "4de01d9c1a0c2b23b2a33ad7f955a9bc",
     "packages": [
         {
             "name": "composer/installers",
@@ -1149,6 +1149,46 @@
                 "wordpress"
             ],
             "time": "2018-12-18 17:37:51"
+        },
+        {
+            "name": "wpackagist-plugin/developer",
+            "version": "1.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/developer/",
+                "reference": "tags/1.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/developer.1.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/developer/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "3.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/3.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.3.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
         }
     ],
     "aliases": [],
