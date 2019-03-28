@@ -44,7 +44,7 @@ define('WP_ENV', env('WP_ENV') ?: 'production');
  */
 Config::define('WP_HOME', env('WP_HOME'));
 Config::define('WP_SITEURL', env('WP_SITEURL'));
-
+Config::define( 'WP_MAX_MEMORY_LIMIT' , '2024M' );
 /**
  * Custom Content Directory
  */

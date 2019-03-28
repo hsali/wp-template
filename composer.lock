@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e7facc4ddc031459fc38b20918066b5d",
-    "content-hash": "4de01d9c1a0c2b23b2a33ad7f955a9bc",
+    "hash": "c1173dbea07b24e67ea2c934b31a8b4d",
+    "content-hash": "24666e3a570b4d423988ee993325d9be",
     "packages": [
         {
             "name": "composer/installers",
@@ -541,6 +541,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/safe-redirect-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/widget-importer-exporter",
+            "version": "1.5.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/widget-importer-exporter/",
+                "reference": "tags/1.5.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/widget-importer-exporter.1.5.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/widget-importer-exporter/"
         }
     ],
     "packages-dev": [
