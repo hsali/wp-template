@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "c1173dbea07b24e67ea2c934b31a8b4d",
-    "content-hash": "24666e3a570b4d423988ee993325d9be",
+    "content-hash": "88ee9e7b2fbd8a02057163acc23d322f",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,7 +124,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-08-27 06:10:37"
+            "time": "2018-08-27T06:10:37+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -167,7 +166,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2017-07-17 20:41:59"
+            "time": "2017-07-17T20:41:59+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -217,7 +216,7 @@
                 "php",
                 "type"
             ],
-            "time": "2015-07-25 16:39:46"
+            "time": "2015-07-25T16:39:46+00:00"
         },
         {
             "name": "roots/wordpress",
@@ -255,7 +254,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13 14:18:06"
+            "time": "2019-03-13T14:18:06+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -311,7 +310,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-12-10 00:22:15"
+            "time": "2018-12-10T00:22:15+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -353,7 +352,7 @@
                 }
             ],
             "description": "Collect configuration values and safely define() them",
-            "time": "2018-08-10 14:18:38"
+            "time": "2018-08-10T14:18:38+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -410,7 +409,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01 16:27:06"
+            "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -468,7 +467,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06 14:22:27"
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -520,7 +519,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-01-30 10:43:17"
+            "time": "2019-01-30T10:43:17+00:00"
         },
         {
             "name": "wpackagist-plugin/safe-redirect-manager",
@@ -561,6 +560,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/widget-importer-exporter/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         }
     ],
     "packages-dev": [
@@ -608,7 +627,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2017-07-11 12:54:05"
+            "time": "2017-07-11T12:54:05+00:00"
         },
         {
             "name": "ramsey/array_column",
@@ -654,7 +673,7 @@
                 "column"
             ],
             "abandoned": true,
-            "time": "2015-03-20 22:07:39"
+            "time": "2015-03-20T22:07:39+00:00"
         },
         {
             "name": "rmccue/requests",
@@ -703,7 +722,7 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2016-10-13 00:11:37"
+            "time": "2016-10-13T00:11:37+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -907,7 +926,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-02-14 08:06:11"
+            "time": "2019-02-14T08:06:11+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -958,7 +977,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-12-19 23:57:18"
+            "time": "2018-12-19T23:57:18+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1007,7 +1026,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-02-23 15:42:05"
+            "time": "2019-02-23T15:42:05+00:00"
         },
         {
             "name": "wp-cli/mustangostang-spyc",
@@ -1055,7 +1074,7 @@
             ],
             "description": "A simple YAML loader/dumper class for PHP (WP-CLI fork)",
             "homepage": "https://github.com/mustangostang/spyc/",
-            "time": "2017-04-25 11:26:20"
+            "time": "2017-04-25T11:26:20+00:00"
         },
         {
             "name": "wp-cli/php-cli-tools",
@@ -1105,7 +1124,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2018-09-04 13:28:00"
+            "time": "2018-09-04T13:28:00+00:00"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -1168,7 +1187,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2018-12-18 17:37:51"
+            "time": "2018-12-18T17:37:51+00:00"
         },
         {
             "name": "wpackagist-plugin/developer",
